@@ -32,7 +32,6 @@ This project includes helper code designed to work with [GalSpecFitX], which is 
 Original project:
 - Author: Isabel Rivera
 - Repository: [https://github.com/starivera/GalSpecFitX]
-- License: BSD 3-Clause License (included in this repository)
 
 
 
