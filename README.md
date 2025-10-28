@@ -17,10 +17,22 @@ python galspecfitx_automate.py
 ## converting_from_text_to_fits_galspec
 This script is used for the preparation of observation spectra for analysis with GalSpecFitX.
 It takes in text files and produces fits files
-
 galspec needs the input to have a specific structure: with columns being wavelength, flux and error.
 HDU is empty
 HDU 1 can be empty with column structure
 HD2 has the actual observation data
 
 (you can change the config file segment to adjust this, but I wanted to test with the sample provided in the software and continued with this)
+
+
+## Attribution
+
+This project includes helper code designed to work with [GalSpecFitX], which is licensed under the BSD 3-Clause License.
+
+Original project:
+- Author: Isabel Rivera
+- Repository: [https://github.com/starivera/GalSpecFitX]
+- License: BSD 3-Clause License (included in this repository)
+
+
+
