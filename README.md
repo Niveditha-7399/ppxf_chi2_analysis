@@ -24,6 +24,12 @@ HD2 has the actual observation data
 
 (you can change the config file segment to adjust this, but I wanted to test with the sample provided in the software and continued with this)
 
+## Read_GalSpecFitX_results
+This code is created by Niveditha Parthasarathy and it is useful for reading the results obtained using GalSpecFitX program
+
+It takes in a folder (full of sub folders containing the results for each observation) and reads the 'light_weights.png' file produced during the automated run and creates a single csv file 'results_read_galspec.csv' in the results folder with two columns- one has the names of the observations and another with the ages retreived. It will write 'Not found' in case no age is retrieved which can happen if the legend in the plot covers the age value.
+
+The compiled results csv will be created in the input folder. I recommend checking this compiled csv to find 'Not found' entries and manually update them.
 
 ## Attribution
 
