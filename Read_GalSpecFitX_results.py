@@ -1,7 +1,7 @@
 ##############################################################
 """
 This code is created by Niveditha Parthasarathy
-and it is useful for reading teh results
+and it is useful for reading the results
 obtained using GalSpecFitX program
 
 It takes in a folder (full of sub folders
@@ -10,7 +10,7 @@ and reads the 'light_weights.png' file produced
 during the automated run and creates a single csv
 file 'results_read_galspec.csv' in the results folder
 with two columns- one has the names of the observations
-and another with the ages retreived.#write It will 
+and another with the ages retreived. It will 
 write 'Not found' in case no age is retrieved
 which can happen if the legend in the plot
 covers the age value.
@@ -91,4 +91,5 @@ with open(output_csv, mode='w', newline='') as file:
                 #exception handling
                 except Exception as e:
                     print(f"Error processing {cluster_name}: {e}")
+
 
