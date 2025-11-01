@@ -31,6 +31,24 @@ It takes in a folder (full of sub folders containing the results for each observ
 
 The compiled results csv will be created in the input folder. I recommend checking this compiled csv to find 'Not found' entries and manually update them.
 
+## compile_model_data_for_ASAD
+This code is created by Niveditha Parthasarathy
+and it is useful for preparing the model file
+to analyze with Analyzer of integrated Spectra for Age,
+henceforth abbreviated in thsi project as ASAD.
+
+This script takes in a folder full of models in txt file format
+and creates a single file out of it with the
+first column being wavelength and the following
+columns corresponding to flux1, flux2, flux3.. and so on.
+where flux1 is the flux of the model file Indexed as 1,
+similarly, flux2 is the flux of the model file Indexed as 2.
+
+
+The indexing of model files is performed while keeping
+track of the file names, and this indexing information
+is also compiled in an output file.
+
 ## Attribution
 
 This project includes helper code designed to work with [GalSpecFitX], which is licensed under the BSD 3-Clause License.
