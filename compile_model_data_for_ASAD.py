@@ -3,7 +3,7 @@
 This code is created by Niveditha Parthasarathy
 and it is useful for preparing the model file
 to analyze with Analyzer of integrated Spectra for Age,
-henceforth abbreviated in thsi project as ASAD.
+henceforth abbreviated in this project as ASAD.
 
 This script takes in a folder full of models in txt file format
 and creates a single file out of it with the
@@ -165,5 +165,6 @@ def compile_model_data(models_path: str, compiled_output: str, mapping_output: s
 
 
 compile_model_data(MODELS_FOLDER_PATH, COMPILED_FILE_NAME, MAPPING_FILE_NAME)
+
 
 print("\nProcess finished.")
