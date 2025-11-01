@@ -35,7 +35,7 @@ The compiled results csv will be created in the input folder. I recommend checki
 This code is created by Niveditha Parthasarathy
 and it is useful for preparing the model file
 to analyze with Analyzer of integrated Spectra for Age,
-henceforth abbreviated in thsi project as ASAD.
+henceforth abbreviated in this project as ASAD.
 
 This script takes in a folder full of models in txt file format
 and creates a single file out of it with the
